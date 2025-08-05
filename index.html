@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shiva Kumar's Portfolio - Web Developer focused on clean and responsive design.">
+    <title>Shiva Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./Assets/Black White Minimalist Professional Initial Logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="logo"><img src="./Assets/Black White Minimalist Professional Initial Logo.png" alt="logo">
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav-links">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger">&#9776</div>
+
+            </div>
+        </header>
+        <section id="hero" class="hero">
+            <div class="hero-left">
+                <h1>Driven by Code, Focused on Impact</h1>
+                <p>passionate Web Developer focused on building clean, responsive websites and sharpening my skills in
+                    JavaScript and DSA. Driven by discipline, vision, and a mission to make an impact through code.</p>
+                <a class="hero-btn" href="#contact">Contact Me</a>
+                <a class="hero-btn" href="#projects">View Projects</a>
+            </div>
+            <div class="hero-right">
+                <img src="./Assets/IMG_20240206_173754.jpg" alt="">
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <div class="container">
+                <img src="./Assets/4827597.jpg" alt="About Me">
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi, I’m Shiva Kumar — a passionate and self-driven web developer from Patna, India. I'm focused
+                        on
+                        mastering HTML, CSS, and JavaScript while also learning Data Structures and Algorithms to
+                        strengthen
+                        my
+                        problem-solving skills. I believe in consistent effort, discipline, and real-world learning.
+                        With a
+                        growth mindset and a strong vision for the future, I’m committed to building high-quality
+                        digital
+                        solutions that create impact and make my family and Bihar proud.
+                    </p>
+                    <a class="hero-btn" id="downloadResume" target="_blank" href="./Assets/CV-07-2025.pdf">Download
+                        Resume</a>
+                </div>
+                <div id="toast"
+                    style="display:none;position:fixed;bottom:30px;right:30px;background:#222;color:#fff;padding:16px 24px;border-radius:6px;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.2);font-size:1rem;">
+                    Resume download started!
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Git & GitHub</div>
+                <div class="skill-card">Responsive Design</div>
+                <div class="skill-card">Figma</div>
+                <div class="skill-card">Tailwind CSS</div>
+                <div class="skill-card">Bootstrap</div>
+                <!-- Add more as needed -->
+            </div>
+        </section>
+
+        <section id="projects" data-aos="zoom-in">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="video-container">
+                        <video id="myVideo" src="./Assets/expenseteacker.mp4"></video>
+
+                        <div class="custom-controls">
+                            <button id="playPause">▶️</button>
+                            <button id="fullscreen">⛶</button>
+                        </div>
+                    </div>
+                    <h3>Expense Tracker</h3>
+                    <p>A simple Expense Tracker using localStorage.</p>
+                    <a target="_blank"
+                        href="https://expense-tracker-git-main-shiva-kumars-projects-0afdc98d.vercel.app/"
+                        class="hero-btn">Live Demo</a>
+                    <a target="_blank" href="https://github.com/venou/Expense-Tracker" class="hero-btn">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <div class="video-container">
+                        <video id="myVideo" src="./Assets/ecommerce-cart.mp4"></video>
+
+                        <div class="custom-controls">
+                            <button id="playPause">▶️</button>
+                            <button id="fullscreen">⛶</button>
+                        </div>
+                    </div>
+                    <h3>E-Commerce Cart</h3>
+                    <p>A simple E-Commerce Cart.</p>
+                    <a href="#" class="hero-btn">Live Demo</a>
+                    <a href="#" class="hero-btn">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <div class="video-container">
+                        <video id="myVideo" src="./Assets/ecommerce-cart.mp4"></video>
+
+                        <div class="custom-controls">
+                            <button id="playPause">▶️</button>
+                            <button id="fullscreen">⛶</button>
+                        </div>
+                    </div>
+                    <h3>Quiz App</h3>
+                    <p>A simple Quiz App.</p>
+                    <a href="#" class="hero-btn">Live Demo</a>
+                    <a href="#" class="hero-btn">GitHub</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" data-aos="fade-up">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+            <form action="https://formspree.io/f/mrblkaaw" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button id="sendMessage" type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-links">
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img src="./Assets/email.png"
+                        alt="email">Email</a>
+                <a href="https://www.linkedin.com/in/shhivakr/" target="_blank"><img src="./Assets/linkedin.png"
+                        alt="linkedin">LinkedIn</a>
+                <a href="https://github.com/venou" target="_blank"><img src="./Assets/github.png"
+                        alt="github">GitHub</a>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2025 Shiva Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
