@@ -3,8 +3,7 @@
 Welcome to the personal portfolio of **Shiva Kumar**, a passionate and self-driven Web Developer from Patna, India. This site highlights my skills, projects, and contact information in a clean, responsive, and interactive layout.
 
 ## 🌐 Live Preview
-[Visit Portfolio](#) <!-- Replace # with your actual deployed URL -->
-
+[Visit Portfolio](#) https://shhivakr.netlify.app/
 ## 📁 Project Structure
 
 ```
@@ -39,8 +38,8 @@ Welcome to the personal portfolio of **Shiva Kumar**, a passionate and self-driv
 
 ## 📷 Preview
 
-![Hero Section](./Assets/IMG_20240206_173754.jpg)  
-(Include other screenshots/gifs if available)
+![Hero Section](./Assets/ss_05-08.png)  
+
 
 ## 🚧 Future Improvements
 
